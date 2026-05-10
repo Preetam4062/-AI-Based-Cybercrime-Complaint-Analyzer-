@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        if (localStorage.getItem('isAuthenticated') === 'true') {
+            window.location.href = 'main/index.html';
+        } else {
+            window.location.href = 'login/index.html';
+        }
+    </script>
+</head>
+<body></body>
+</html>
